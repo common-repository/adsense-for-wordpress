@@ -1,0 +1,458 @@
+#main-plugin div.clear {
+	height: 0;
+	overflow: hidden;
+}
+
+#main-plugin p {
+	margin: 0;
+}
+
+#main-plugin .item {
+	margin-bottom: 12px;
+	position: relative;
+	z-index: 5;
+}
+
+#main-plugin .item-title {
+	font-weight: bold;
+}
+
+#main-plugin h2 {
+	padding-bottom: 3px;
+}
+
+#main-plugin .warn p {
+	margin: 0.5em 0;
+	padding: 2px;
+}
+
+#main-plugin .error {
+	background-color: #fae7e7;
+	border: 1px solid #ff283a;
+}
+
+#main-plugin .updated {
+	background-color: #FFFBCC;
+	border: 1px solid #E6DB55;
+}
+
+#main-plugin .theme-current {
+	height: 24px;
+}
+
+#main-plugin .theme-current label, #main-plugin .theme-current span {
+	float: left;
+	width: auto;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 8px;
+	overflow: hidden;
+}
+
+#main-plugin .template-select {
+	clear: both;
+	float: left;
+	position: relative;
+}
+
+#main-plugin .template-select .save-as {
+	display: block;
+	width: 142px;
+	padding: 10px;
+	background: rgb(249,249,249);
+	border: 6px solid #ccc;
+	overflow: hidden;
+	position: absolute;
+	top: 0;
+	right: -180px;
+	z-index: 50;
+}
+
+#main-plugin .template-select span.tool {
+	position: relative;
+	top: 2px;
+}
+
+#main-plugin .template-select .hide {
+	display: none;
+}
+
+#main-plugin .template-select .save-as .input {
+	width: 140px;
+	margin-bottom: 8px;
+	display: block;
+}
+
+#main-plugin .global-google-id {
+	clear: both;
+}
+
+#main-plugin .global-google-id span.tool {
+	position: relative;
+	top: 2px;
+}
+
+#main-plugin .ad-main-options {
+	border: 1px solid #ccc;
+	padding: 10px 0 0 18px;
+	position: relative;
+	z-index: 10;
+}
+
+#main-plugin .ad-main-options legend {
+	padding: 0 10px;
+	margin-left: 14px;
+}
+
+#main-plugin .ad-main-options .list {
+	height: 40px;
+	overflow: visible;
+}
+
+#main-plugin .ad-main-options .list .btn-edit {
+	clear: both;
+	float: left;
+}
+
+#main-plugin .ad-main-options .list .ops-edit, #main-plugin .ad-main-options .list .ops-forbid, #main-plugin .ad-main-options .list .ops-anchor {
+	float: left;
+	height: 40px;
+	line-height: 30px;
+	padding-left: 8px;
+}
+
+#main-plugin .ad-border-color .colorArea {
+	padding-top: 6px;
+}
+
+#main-plugin .ad-border-color .list {
+	clear: both;
+	height: 24px;
+	overflow: visible;
+	position: relative;
+	z-index: 50;
+}
+
+.color-pick .t1 {
+	float: left;
+	width: 130px;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 4px;
+	text-align: right;
+}
+
+.color-pick .t2 {
+	float: left;
+	width: 70px;
+}
+
+.color-pick .t3 {
+	float: left;
+	width: 20px;
+	height: 20px;
+	margin: 1px 0 0 3px;
+	border: 1px solid #ccc;
+}
+
+#main-plugin .ad-number option {
+	padding-right: 16px;
+}
+
+#main-plugin .input-ad-support-rate {
+	width: 38px;
+}
+
+#main-plugin .input-google-id {
+	width: 180px;
+}
+
+#main-plugin .clue {
+	color: #666;
+	font-style: normal;
+	font-size: 11px;
+}
+
+/* alert form */
+#main-plugin .adsForm_container {
+	position: relative;
+}
+
+#main-plugin .adsForm_panel {
+	float: left;
+	padding: 12px 6px 2px 18px;
+	background: #fff;
+	border: 1px solid #dcdcdc;
+	border-width: 20px 12px 12px 12px;
+	position: absolute;
+	top: 26px;
+	left: 2px;
+	z-index: 100;
+}
+
+#main-plugin .adsForm_load p {
+	width: 100px;
+	height: 160px;
+	line-height: 160px;
+	margin: 0 150px;
+	text-align: center;
+	background: transparent url(./images/loading.gif) no-repeat left center;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .btn-close {
+	display: block;
+	width: 55px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 11px;
+	font-weight: bold;
+	text-decoration: none;
+	background: transparent url(./images/close.gif) no-repeat right 2px;
+	overflow: hidden;
+	position: absolute;
+	color: #fff;
+	top: -20px;
+	right: 0;
+}
+
+#main-plugin .adsForm_panel .btn-close:hover {
+	color: #666;
+	background-position: right -28px;
+}
+
+#main-plugin .adsForm_panel h3 {
+	margin: 0 0 10px 0;
+	font-size: 14px;
+}
+
+#main-plugin .adsForm_panel .ad-pan {
+	float: left;
+	width: auto;
+	padding: 0 32px 16px 0;
+}
+
+/* position */
+#main-plugin .adsForm_panel .ad-position-l {
+	width: 105px;
+}
+
+#main-plugin .adsForm_panel .ad-position-l .item-panel {
+	width: 105px;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .ad-position-l .item-panel .select-list {
+	width: 87px;
+	overflow: hidden;
+}
+
+/* alignment */
+#main-plugin .adsForm_panel .ad-alignment-l {
+	width: 80px;
+}
+
+/* type */
+#main-plugin .adsForm_panel .ad-type-l {
+	width: 115px;
+}
+
+/* format */
+#main-plugin .adsForm_panel .ad-format-l {
+	width: 200px;
+}
+
+#main-plugin .adsForm_panel .ad-format-l .item-panel {
+	width: 200px;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .ad-format-l .item-panel .select-list {
+	width: 182px;
+	overflow: hidden;
+}
+
+/* border style */
+#main-plugin .adsForm_panel .ad-border-style-l {
+	width: 165px;
+}
+
+/* margin */
+#main-plugin .adsForm_panel .ad-margin-l {
+	width: 85px;
+}
+
+/* google channel and google account */
+#main-plugin .adsForm_panel .L-4 .ad-single-channel-id-l, #main-plugin .adsForm_panel .L-4 .ad-single-google-id-l {
+	clear: both;
+	width: 300px;
+	padding-bottom: 14px;
+}
+
+#main-plugin .adsForm_panel .ad-title-l, #main-plugin .adsForm_panel .ad-unit-submit {
+	clear: both;
+}
+
+/* number of ads per post */
+#main-plugin .adsForm_panel .ad-number-post-l {
+	clear: both;
+}
+
+#main-plugin .adsForm_panel .ad-number-post option {
+	padding-right: 16px;
+}
+
+/* google-search */
+#main-plugin .adsForm_panel .ad-title-search .title-search-item {
+	float: left;
+	width: auto;
+	height: 32px;
+	padding-right: 32px;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .ad-title-search .custom-title {
+	clear: both;
+	padding-top: 10px;
+}
+
+#main-plugin .adsForm_panel .ad-title-search .title-search-item span {
+	float: left;
+	width: auto;
+	height: 32px;
+	padding-top: 8px;
+}
+
+#main-plugin .adsForm_panel .ad-title-search .title-search-item label {
+	float: left;
+	width: 75px;
+	height: 32px;
+	line-height: 32px;
+	overflow: hidden;
+}
+
+#main-plugin .ad-widget-search-block .ad-single-channel-id-l, #main-plugin .ad-widget-search-block .ad-single-google-id-l {
+	clear: both;
+}
+
+#main-plugin .adsForm_panel .item-panel {
+	float: left;
+	width: auto;
+}
+
+#main-plugin .adsForm_panel .clue {
+	float: left;
+	width: auto;
+	height: 24px;
+	line-height: 24px;
+	padding-left: 4px;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .L-1 .label {
+	display: block;
+	padding-bottom: 3px;
+}
+
+#main-plugin .adsForm_panel .L-2 .label {
+	float: left;
+	width: auto;
+	height: 24px;
+	line-height: 24px;
+	padding-right: 4px;
+	font-style: normal;
+}
+
+#main-plugin .adsForm_panel .L-3 em, #main-plugin .adsForm_panel .L-3 input {
+	display: inline;
+}
+
+#main-plugin .adsForm_panel .L-4 {
+	float: left;
+	width: auto;
+}
+
+#main-plugin .adsForm_panel input.ad-title {
+	width: 320px;
+}
+
+#main-plugin .adsForm_panel input.ad-margin {
+	width: 50px;
+}
+
+#main-plugin .adsForm_panel input.ad-channel-id, #main-plugin .adsForm_panel input.ad-google-id {
+	width: 180px;
+}
+
+#main-plugin .adsForm_panel .ad-color {
+	width: 235px;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .ad-color .t1 {
+	clear: both;
+}
+
+#main-plugin .adsForm_panel .mn-select {
+	position: relative;
+}
+
+#main-plugin .adsForm_panel .mn-select p {
+	height: 22px;
+	white-space: nowrap;
+	text-indent: 6px;
+	cursor: default;
+	background: transparent url(./images/select-left.gif) no-repeat left top;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .mn-select p span {
+	display: block;
+	line-height: 22px;
+	padding-right: 32px;
+	cursor: default;
+	font-size: 11px;
+	background: transparent url(./images/select-right.gif) no-repeat right top;
+}
+
+#main-plugin .adsForm_panel .mn-select p span.selected {
+	background-position: right -22px;
+}
+
+#main-plugin .adsForm_panel .mn-select ul {
+	display: none;
+	padding: 2px 8px 0 8px;
+	border: 1px solid #e9e9e9;
+	background-color: #fff;
+	position: absolute;
+	top: 42px;
+	left: 0px;
+}
+
+#main-plugin .adsForm_panel .mn-select li {
+	height: 17px;
+	line-height: 17px;
+	white-space: nowrap;
+	font-size: 11px;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .mn-select li.close {
+	height: 14px;
+	overflow: hidden;
+}
+
+#main-plugin .adsForm_panel .mn-select li.close a {
+	float: right;
+	display: inline;
+	width: 33px;
+	height: 14px;
+	margin-right: 4px;
+	background: transparent url(./images/text-ok.gif) no-repeat center center;
+	overflow: hidden;
+}
+
+#WzTtDiV p {
+	margin: 0;
+	padding-bottom: 8px;
+}
